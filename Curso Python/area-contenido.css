@@ -1,0 +1,66 @@
+#area-contenido{
+    background: rgb(248, 218, 152);
+    width: 100%;
+}
+/* aside{
+    background: rgb(248, 218, 152);
+    display: outside;
+    float: right;
+    width: 300px;
+    height: 800px;
+} */
+article{
+    background: rgb(81, 150, 182);
+    height: 100%;
+    /* padding: 6px; */
+}
+p{
+    /* background: rgb(248, 218, 152); */
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background: rgb(248, 218, 152);
+    padding: 10px;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: rgb(248, 218, 152); */
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px 6px 6px 6px;
+}
+.lista{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    border-radius: 6px;
+    box-shadow: 2px 2px 15px rgb(106, 106, 106);
+    
+}
+#pfoto{
+    float: left;
+    margin: 10px 25px 30px 15px;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    /* background: url('https://miro.medium.com/max/3200/1*Nyj7m6nq0Vu5pEh26RHF8Q.jpeg') ; */
+    background: rgb(248, 218, 152);
+}
