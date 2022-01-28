@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/59/%C3%8Dcono_Computadora_-_Internet.JPG">        
+        <link rel="stylesheet" href="stiloform.css"> <!--Acá llamamos al archivo CSS-->
+</head>
+<body>
+    <header>
+        <h1>TE LO VENDO</h1>
+    </header>
+    <nav>
+      <ul>
+          <li><a href="AE2PRO2_2.html">Inicio</li>|
+          <li><a herf="#">Categoria</li>|
+          <li><a href="Contacto.html">Contacto</a><li>|
+      </ul>
+  </nav>    
+    <div class="form">
+        <form action="" method="post">
+          <ul>
+            <li>
+             <label for="name">Nombre:</label>
+             <!-- type acepta text, email y password -->
+             <input type="text" id="form-name" name="user_name" required="true" placeholder="name">
+            </li>
+            <li>
+              <label for="mail">Correo electronico: </label>
+              <input type="email" id="form-mail" name="user_mail" required="true" placeholder="email">
+            </li>
+            <li>
+                <label for="name">Mensaje:</label>
+                <textarea name="user_comentario" id="form-comentario" cols="32" rows="10"></textarea>
+
+            </li>
+            <!-- <li>
+             <label for="Contacto">Contraseña:</label>
+             <input type="password" id="form-password" name="user_password" required="true" placeholder="password">
+            </li> -->
+            <li class="button">
+             <button type="submit">Enviar</button>
+            </li>
+          </ul>
+        </form>   
+</body>
+</html>
